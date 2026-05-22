@@ -1,0 +1,35 @@
+{
+  "name": "@jeecg/cli",
+  "version": "1.0.0",
+  "description": "JeecgBoot Vue3 项目模板精简工具，支持全局安装后在任意 JeecgBoot 项目中执行精简",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "jeecg-cli": "./bin/jeecg-cli.mjs"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "modules",
+    "index.js",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node ./bin/jeecg-cli.mjs",
+    "link:local": "npm link",
+    "unlink:local": "npm unlink -g @jeecg/cli"
+  },
+  "keywords": [
+    "jeecgboot",
+    "vue3",
+    "cli",
+    "template",
+    "scaffold",
+    "cleanup"
+  ],
+  "author": "JeecgBoot Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
